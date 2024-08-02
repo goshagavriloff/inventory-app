@@ -1,0 +1,67 @@
+#inventory-modal {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  &_container {
+    position: relative;
+    padding: 0 20px 0 20px;
+  }
+  &_header {
+    padding: 45px;
+    img {
+      display: block;
+
+      width: 130px;
+      height: 130px;
+    }
+  }
+
+  &_descr {
+    display: block;
+    width: 211px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    border: $border-color 1px solid;
+    border-width: 1px 0 1px 0;
+  }
+  &_footer {
+    padding: 18px 0;
+  }
+}
+
+#inventory-submodal {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $secondary-color;
+  padding: 20px;
+  border: $border-color 1px solid;
+  border-width: 1px 0 0 0;
+  &_actions {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 88px 112px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+.btn_box-delete {
+  padding: 11px;
+  text-align: center;
+  color: $button-secondary-color;
+  background-color: $button-primary-color;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+}
+.btn_box-cancel {
+  padding: 11px;
+  text-align: center;
+  background-color: $button-secondary-color;
+  color: $primary-color;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+}

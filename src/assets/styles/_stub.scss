@@ -1,0 +1,50 @@
+.stub {
+  height: 8px;
+  width: 100%;
+  border: 1px solid $border-color;
+  background: $background-color;
+
+  &.rounded {
+    border-radius: 4px;
+  }
+
+  &.rounded-lg {
+    border-radius: 8px;
+  }
+
+  &.rounded-xl {
+    border-radius: 12px;
+  }
+
+  &-title {
+    height: 24px;
+  }
+
+  &-row {
+    display: block;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:first-child {
+      margin-top: 24px;
+    }
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 24px;
+    }
+
+    &:last-child {
+      margin: 0 auto;
+    }
+  }
+}
+
+@each $size in $sizes_bar {
+  .stub.w-#{$size} {
+    width: calc($size * 1px);
+  }
+}
+.stub.h-full {
+  height: 100%;
+}

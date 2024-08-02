@@ -4,7 +4,14 @@ $secondary-color: #262626;
 $border-color: #4d4d4d;
 $background-color: linear-gradient(to right, #3c3c3c, #444444 51%, #333333 100%);
 
-$button-ok-color: #ff6267;
-$button-cancel-color: #ffffff;
+$button-primary-color: #ff6267;
+$button-secondary-color: #ffffff;
 
-$font-size: 16px;
+$font-size: 14px;
+$font-count-size: 10px;
+
+$border-size: 12px;
+
+$sizes_bar: 80, 140, 160, 155, 170, 180;
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
