@@ -23,7 +23,6 @@ const onDragStart = (e: DragEvent, from: number) => {
     e.dataTransfer.dropEffect = 'move'
     e.dataTransfer.effectAllowed = 'move'
     e.dataTransfer.setData('from', from.toString())
-    target.classList.add('active')
   }
 }
 
