@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const props = defineProps({
-  className: String
-})
+defineProps<{
+  className: string
+}>()
 </script>
 
 <template>
-  <div :class="'stub '.concat(props.className)"></div>
+  <div :class="'stub '.concat(className)"></div>
 </template>
 
 <style scoped></style>
