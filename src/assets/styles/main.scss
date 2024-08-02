@@ -1,6 +1,6 @@
 * {
   cursor:
-    url(../icons/cursor.svg) 8 8,
+    url('/inventory-app/src/icons/cursor.svg') 8 8,
     pointer;
 }
 
@@ -37,7 +37,7 @@ body {
   position: absolute;
   right: 8px;
   top: 8px;
-  background: url(../icons/close.svg);
+  background: url('/inventory-app/src/icons/close.svg');
   height: 24px;
   width: 24px;
   border: none;

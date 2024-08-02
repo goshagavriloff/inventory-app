@@ -46,7 +46,7 @@ const onDrop = (e: DragEvent, to: number) => {
     @dragover.prevent
   >
     <div class="inventory-item_slot" v-if="slot">
-      <img :src="'/src/assets/img/'.concat(`${slot?.title}.png`)" alt="" srcset="" />
+      <img :src="'/inventory-app/src/img/'.concat(`${slot?.title}.png`)" alt="" srcset="" />
       <div class="inventory-item_count">
         {{ slot?.count }}
       </div>

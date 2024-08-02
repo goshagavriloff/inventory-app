@@ -57,12 +57,12 @@
     &:hover,
     & img:hover {
       cursor:
-        url(../icons/cursor-line.svg) 8 8,
+        url('/inventory-app/src/icons/cursor-line.svg') 8 8,
         pointer;
     }
     &:active {
       cursor:
-        url(../icons/cursor-hand.svg) 8 8,
+        url('/inventory-app/src/cursor-hand.svg') 8 8,
         move;
     }
   }

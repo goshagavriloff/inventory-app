@@ -38,7 +38,7 @@ const deleteItem = (event: Event) => {
     <div id="inventory-modal_container">
       <div id="inventory-modal_header">
         <img
-          :src="'/src/assets/img/'.concat(`${watchedInventory?.slot?.title}.png`)"
+          :src="'/inventory-app/src/img/'.concat(`${watchedInventory?.slot?.title}.png`)"
           alt=""
           srcset=""
         />

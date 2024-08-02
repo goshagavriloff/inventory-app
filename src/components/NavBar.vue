@@ -22,7 +22,7 @@ import Stub from './Stub.vue'
 <style scoped>
 #inventory-bar_header {
   position: relative;
-  background: url('/src/assets/img/Nav.png');
+  background: url('/inventory-app/src/img/Nav.png');
   background-size: cover;
   border-radius: 6px;
   width: 208px;
